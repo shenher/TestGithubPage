@@ -42,7 +42,8 @@
           <h1 class="hero__name">張軒赫</h1>
           <p class="hero__title">軟體工程師 / 網站開發者</p>
           <p class="hero__desc">
-            熱愛打造乾淨、使用者友善的網頁體驗，擅長前端開發，並對後端與系統設計充滿熱忱。
+            擅長 ASP.NET／C# 全端開發，具備六年以上企業系統實務經驗。
+            近期專注於 AI 輔助開發工具的研究與推廣，持續探索新技術並樂於分享。
           </p>
           <div class="hero__cta">
             <a href="#experience" class="btn btn--primary">查看工作經歷</a>
@@ -62,15 +63,19 @@
         <div class="about__grid">
           <div class="about__text">
             <p>
-              我是一位擁有 <strong>6 年以上</strong>開發經驗的軟體工程師，專注於前端技術棧，
-              包含 HTML、CSS、JavaScript，以及 React 與 Vue 框架。
+              我是一位擁有 <strong>6 年以上</strong>開發經驗的全端工程師，
+              主要技術為 ASP.NET（WebForm 與 Core MVC）、C# 與 MSSQL，
+              具備完整的系統設計、資料庫規劃與第三方 API 串接實務經驗。
             </p>
             <p>
-              在工作中，我注重程式碼的可讀性與可維護性，同時追求流暢的使用者體驗。
-              我喜歡與設計師和後端工程師緊密協作，共同交付高品質的產品。
+              在工作中，我習慣從問題根源思考解法——遇到重複性人工作業時，
+              會主動開發工具進行批次自動化；也曾帶領小組成員協作開發，
+              負責工作分配與規格書撰寫。
             </p>
             <p>
-              工作之餘，我熱愛閱讀技術文章、參加開源社群，並偶爾寫技術部落格分享所學。
+              2026 年起轉入技術戰略中心，負責評估 GitHub Copilot 導入可行性、
+              推廣 AI 輔助開發工具，並主導規劃公司下一代前後端分離網站樣板。
+              對新技術保持高度好奇心，持續自學並樂於分享。
             </p>
           </div>
           <ul class="about__info">
@@ -171,12 +176,13 @@
         <h2 class="section__title">工作經歷</h2>
         <ol class="timeline" reversed>
 
+          <!-- 技術戰略中心 2026–至今 -->
           <li class="timeline__item">
             <div class="timeline__marker"></div>
             <div class="timeline__content">
               <div class="timeline__header">
                 <h3 class="timeline__role">系統設計師・技術戰略中心</h3>
-                <span class="timeline__period">2019年 – 至今</span>
+                <span class="timeline__period">2026年 – 至今</span>
               </div>
               <p class="timeline__company">德蒙資訊管理顧問股份有限公司・新竹縣湖口鄉</p>
               <ul class="timeline__duties">
@@ -195,7 +201,56 @@
             </div>
           </li>
 
+          <!-- 全端工程師 2019–2025 -->
+          <li class="timeline__item">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <div class="timeline__header">
+                <h3 class="timeline__role">全端工程師</h3>
+                <span class="timeline__period">2019年 – 2025年</span>
+              </div>
+              <p class="timeline__company">德蒙資訊管理顧問股份有限公司・新竹縣湖口鄉</p>
+              <ul class="timeline__duties">
+                <li>負責多套 ASP.NET WebForm 舊系統的日常維護與問題排除；針對重複性作業自行開發 WPF 小工具進行批次處理，縮短約 90% 的人工作業時間。</li>
+                <li>參與使用者需求討論，獨立撰寫前端畫面與後端邏輯，自行設計 DB Schema 與 Stored Procedure；曾帶領小組成員共同開發，負責工作分配與規格書撰寫。</li>
+                <li>參與大型專案開發，使用 ASP.NET WebForm（C#）搭配 MSSQL（ADO.NET），負責與信用卡公司進行 API 串接，處理資料交換與入庫。</li>
+                <li>參與 CMC 大型專案，負責 .NET 6 建站、帳號登入、底層 Filter 權限控管、各式 API 串接，並協助培訓同仁上手 .NET Core 技術。</li>
+                <li>串接 LinePay、街口、綠界等電子支付 API，實作付款與電子發票開立功能，整合至公司系統供經銷商使用。</li>
+                <li>使用 Azure DevOps 進行版本控制，並導入 CI/CD 進行自動化部署。</li>
+              </ul>
+              <div class="timeline__tags">
+                <span class="tag tag--sm">ASP.NET WebForm</span>
+                <span class="tag tag--sm">ASP.NET Core MVC</span>
+                <span class="tag tag--sm">C#</span>
+                <span class="tag tag--sm">MSSQL</span>
+                <span class="tag tag--sm">WPF</span>
+                <span class="tag tag--sm">jQuery</span>
+                <span class="tag tag--sm">Azure DevOps</span>
+                <span class="tag tag--sm">CI/CD</span>
+              </div>
+            </div>
+          </li>
 
+          <!-- 日月光 IT 工讀生 -->
+          <li class="timeline__item">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <div class="timeline__header">
+                <h3 class="timeline__role">IT 工讀生</h3>
+                <span class="timeline__period">2019年2月 – 2019年7月</span>
+              </div>
+              <p class="timeline__company">日月光半導體・桃園市中壢區</p>
+              <ul class="timeline__duties">
+                <li>將既有 VB 程式碼依公司規範改寫為 C# 樣板。</li>
+                <li>運用 Oracle SQL 搭配公司系統，將 VB 程式自動產生報表。</li>
+              </ul>
+              <div class="timeline__tags">
+                <span class="tag tag--sm">C#</span>
+                <span class="tag tag--sm">VB</span>
+                <span class="tag tag--sm">Oracle SQL</span>
+              </div>
+            </div>
+          </li>
 
         </ol>
       </div>
